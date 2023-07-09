@@ -5,6 +5,8 @@ name: "fuzzy_text"
 version: "0.0.2"
 config-version: 2
 
+require-dbt-version: [">=1.3.0", "<2.0.0"]
+
 # This setting configures which "profile" dbt uses for this project.
 profile: "fuzzy_text"
 
