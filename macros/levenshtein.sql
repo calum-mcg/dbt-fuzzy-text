@@ -2,7 +2,7 @@
     -- Check inputs are not None or empty
     -- Max can be empty
     {% if str1 is none or str2 is none or str1 == "" or str2 == ""%}
-        {{ exceptions.raise_compiler_error("Both input strings can't be empty.") }}
+        {{ exceptions.raise_compiler_error("Both input strings must contain text.") }}
     {% endif %}
 
      -- If max is set, check int and not 0
