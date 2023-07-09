@@ -1,0 +1,7 @@
+input_string,comparison_string,levenshtein_distance
+colour,color,1
+cheese,chose,2
+chance,charts,3
+boil,spoil,2
+table,carts,4
+tremendous,tree,6

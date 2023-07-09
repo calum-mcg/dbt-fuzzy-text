@@ -1,0 +1,1 @@
+select input_string, comparison_string, {{ fuzzy_text.levenshtein_distance('input_string', 'comparison_string') }} as levenshtein_distance from {{ ref('test_strings') }}
