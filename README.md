@@ -13,7 +13,7 @@ Current coverage:
 
 New to dbt packages? Read more about them [here](https://docs.getdbt.com/docs/building-a-dbt-project/package-management/).
 
-1. Include this package in your `packages.yml` file — check [here](https://hub.getdbt.com/dbt-labs/calum-mcg/latest/) for the latest version number:
+1. Include this package in your `packages.yml` file — check [here](https://hub.getdbt.com/calum-mcg/latest/) for the latest version number:
 
 ```yml
 packages:
