@@ -17,7 +17,7 @@ New to dbt packages? Read more about them [here](https://docs.getdbt.com/docs/bu
 
 ```yml
 packages:
-  - package: calum-mcg/dbt-fuzzy-text
+  - package: calum-mcg/fuzzy_text
     version: X.X.X ## update to latest version here
 ```
 
