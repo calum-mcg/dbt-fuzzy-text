@@ -34,3 +34,11 @@
     -- Built-in for US-regions within BigQuery
     fhoffa.x.levenshtein({{str1}}, {{str2}})
 {% endmacro %}
+
+{% macro synapse__levenshtein_distance(str1, str2, max=none) %}
+    {% if max is not none %}
+        {{target.schema}}.levenshtein({{str1}}, {{str2}}, {{max}})
+    {% else %} 
+        {{target.schema}}.levenshtein({{str1}}, {{str2}}, DEFAULT)
+    {% endif %} 
+{% endmacro %}

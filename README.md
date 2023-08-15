@@ -3,11 +3,11 @@
 Macros that help with fuzzy text matching, with the aim of keeping dbt models agnostic of data warehouses.
 
 Current coverage:
-| Algorithm | Snowflake | BigQuery |
-| :--- | :----: | ---: |
+| Algorithm | Snowflake | BigQuery | Azure Synapse (Dedicated SQL Pool)
+| :--- | :----: | ---: | ---: |
 | _Edit distance based_ |
-| Levenshtein Distance | ✔️ | ✔️ |
-| Jaro-Winkler Similarity | ✔️ | ❌ |
+| Levenshtein Distance | ✔️ | ✔️ | ✔️ |
+| Jaro-Winkler Similarity | ✔️ | ❌ | ❌ |
 
 # Installation instructions
 
